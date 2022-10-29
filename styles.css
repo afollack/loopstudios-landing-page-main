@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #fff;
+  font-size: 0.9375rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-hero.jpg");
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero-text {
+  margin: 10em 1.5em;
+  padding: 1.5em;
+  border: 1px solid #fff;
+}
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.overlay {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.overlay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1.5rem 10rem 1.5rem;
+}
+.overlay-links {
+  display: flex;
+  flex-direction: column;
+}
+.overlay a {
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.interactive-vr img {
+  width: 90%;
+  display: block;
+  margin: 6em auto 3em auto;
+}
+
+.interactive-vr h2,
+.creations h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+.interactive-vr p {
+  font-family: "Alata", sans-serif;
+  text-align: center;
+  color: hsl(0, 0%, 55%);
+  padding: 2em 3em;
+}
+
+.creations {
+  margin: 3em auto 6em auto;
+}
+
+.creation-image {
+  width: 90%;
+  margin: 2em auto;
+  height: 10em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.creation-image p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2em;
+  width: 60%;
+  padding: 0.5em;
+}
+
+.deepearth {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-deep-earth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.nightarcade {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-night-arcade.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.soccerteam {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-soccer-team.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.thegrid {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-grid.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aboveVR {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-from-above.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.borealis {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-pocket-borealis.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.curiousity {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-curiosity.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fisheye {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("./images/mobile/image-fisheye.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.creations button {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1em 4em;
+  border: 0.2em solid black;
+  background: none;
+  display: block;
+  margin: 0 auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  padding-bottom: 3em;
+}
+
+.footer-logo {
+  margin: 3em auto;
+}
+footer a {
+  font-family: "Alata", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 1em;
+}
+
+.socials {
+  padding: 3em 0 1em 0;
+}
+.socials a {
+  padding: 0 0.5em;
+}
+
+.copyright {
+  font-family: "Alata", sans-serif;
+  color: hsl(0, 0%, 55%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 1em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

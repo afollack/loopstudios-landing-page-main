@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <header class="header">
+        <img src="./images/logo.svg" alt="loopstudios logo" />
+        <img src="./images/icon-hamburger.svg" onclick="openNav()" />
+      </header>
+      <nav id="myNav" class="overlay">
+        <div class="overlay-content">
+          <div class="overlay-header">
+            <img src="./images/logo.svg" alt="loopstudios logo" />
+            <img
+              src="./images/icon-close.svg"
+              class="closebtn"
+              onclick="closeNav()"
+            />
+          </div>
+          <div class="overlay-links">
+            <a href="#">About</a><a href="#">Careers</a><a href="#">Events</a
+            ><a href="#">Products</a><a href="#">Support</a>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-text">
+        <h1>Immersive experiences that deliver</h1>
+      </div>
+    </div>
+    <main>
+      <section class="interactive-vr">
+        <picture>
+          <source
+            srcset="./images/desktop/image-interactive.jpg"
+            media="(min-width: 800px)"
+          />
+          <img src="./images/mobile/image-interactive.jpg" alt="" />
+        </picture>
+        <h2>The leader in interactive VR</h2>
+        <p>
+          Founded in 2011, Loopstudios has been producing world-class virtual
+          reality projects for some of the best companies around the globe. Our
+          award-winning creations have transformed businesses through digital
+          experiences that bind to their brand.
+        </p>
+      </section>
+      <section class="creations">
+        <h2>Our creations</h2>
+        <div class="creation-image deepearth deepearth-desktop">
+          <p>Deep earth</p>
+        </div>
+        <div class="creation-image nightarcade nightarcade-desktop">
+          <p>Night arcade</p>
+        </div>
+        <div class="creation-image soccerteam soccerteam-desktop">
+          <p>Soccer team VR</p>
+        </div>
+        <div class="creation-image thegrid thegrid-desktop">
+          <p>The grid</p>
+        </div>
+        <div class="creation-image aboveVR aboveVR-desktop">
+          <p>From up above VR</p>
+        </div>
+        <div class="creation-image borealis borealis-desktop">
+          <p>Pocket Borealis</p>
+        </div>
+        <div class="creation-image curiousity curiousity-desktop">
+          <p>The curiousity</p>
+        </div>
+        <div class="creation-image fisheye fisheye-desktop">
+          <p>Make it fisheye</p>
+        </div>
+        <button>See all</button>
+      </section>
+    </main>
+    <footer>
+      <image
+        class="footer-logo"
+        src="./images/logo.svg"
+        alt="loopstudios logo"
+      />
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Events</a>
+      <a href="#">Products</a>
+      <a href="#">Support</a>
+      <div class="socials">
+        <a href="#"><img src="./images/icon-facebook.svg" /></a>
+        <a href="#"><img src="./images/icon-twitter.svg" /></a>
+        <a href="#"><img src="./images/icon-pinterest.svg" /></a>
+        <a href="#"><img src="./images/icon-instagram.svg" /></a>
+      </div>
+      <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+    </footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Andrea Follack</a>.
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
