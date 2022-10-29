@@ -11,8 +11,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-hero.jpg");
+  background: url("./images/mobile/image-hero.jpg");
   height: 750px;
   background-size: cover;
   background-position: center;
@@ -115,61 +114,53 @@ body {
 }
 
 .deepearth {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-deep-earth.jpg");
+  background: url("./images/mobile/image-deep-earth.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .nightarcade {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-night-arcade.jpg");
+  background: url("./images/mobile/image-night-arcade.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .soccerteam {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-soccer-team.jpg");
+  background: url("./images/mobile/image-soccer-team.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .thegrid {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-grid.jpg");
+  background: url("./images/mobile/image-grid.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .aboveVR {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-from-above.jpg");
+  background: url("./images/mobile/image-from-above.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .borealis {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-pocket-borealis.jpg");
+  background: url("./images/mobile/image-pocket-borealis.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .curiousity {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-curiosity.jpg");
+  background: url("./images/mobile/image-curiosity.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .fisheye {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("./images/mobile/image-fisheye.jpg");
+  background: url("./images/mobile/image-fisheye.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
